@@ -33,8 +33,13 @@
 </ol>
  <br/>
     <p style="font-size:36px;color:#00BFFF"><strong>This is a fantasic place.</strong></p>
- <video src="http://www.iqiyi.com/w_19rs2pa6bp.html" width="320" height="240" controls="controls">
-Your browser does not support the video tag.
+ <video width="320" height="240" controls="controls" autoplay="autoplay">
+  <source src="/i/movie.ogg" type="video/ogg" />
+  <source src="/i/movie.mp4" type="video/mp4" />
+  <source src="/i/movie.webm" type="video/webm" />
+  <object data="/i/movie.mp4" width="320" height="240">
+    <embed width="320" height="240" src="/i/movie.swf" />
+  </object>
 </video>
    
     </div>
