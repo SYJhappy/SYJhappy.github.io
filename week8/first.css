@@ -1,4 +1,47 @@
-td.fancy{
-    color:#37fa13;
-    background: #666;
+.fancy{
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    width: 100%;
+    
 }
+.fancy 
+{
+    font-size: 1em;
+    border: 1px solid #381efa;
+    padding: 3px 7px 2px 7px;
+    width: 100%;    
+}
+.fancytd
+{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 5px;
+    background-color: #ffffff;
+    color: #A7c942;
+}
+.fancy 
+{
+    color: chartreuse;
+    background-color: cadetblue;
+}
+.bigtd 
+{
+    font-size: 5em;
+    color: #83d82e;
+    background-color: #ffffff;
+    border: 3px solid #11a9fa;
+    text-align: center;
+ 
+    border-collapse:collapse;
+    width: 100%;
+}
+.home
+{
+   text-align: right;
+   font-size: 1em;
+   font-weight:800;
+   color: #ffffff;
+   background-color: cadetblue;
+   width: 100%;
+}
+a {text-decoration: none}
