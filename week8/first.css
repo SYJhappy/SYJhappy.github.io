@@ -1,4 +1,5 @@
 .fancy{
+<<<<<<< HEAD
     font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
     width: 100%;
     
@@ -45,3 +46,8 @@
    width: 100%;
 }
 a {text-decoration: none}
+=======
+    color:#37fa13;
+    background-color: #666;
+}
+>>>>>>> 9aea34daa3c18d9f674b52ad307aaa4916f06372
