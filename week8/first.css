@@ -1,5 +1,4 @@
 .fancy{
-<<<<<<< HEAD
     font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
     width: 100%;
     
@@ -41,13 +40,34 @@
    text-align: right;
    font-size: 1em;
    font-weight:800;
-   color: #ffffff;
-   background-color: cadetblue;
+   background-color: #ffffff;
    width: 100%;
 }
-a {text-decoration: none}
-=======
-    color:#37fa13;
-    background-color: #666;
+a {
+    text-decoration: none;
+    color:#0b9efa;
 }
->>>>>>> 9aea34daa3c18d9f674b52ad307aaa4916f06372
+a:hover
+{
+    color: darksalmon;
+}
+.none1
+{
+    list-style-type: none;
+    font-size: 3em;
+    font-weight: 500;
+    border: none;
+    list-style-position:inside;
+    padding: 1px 7px 2px 25px;
+    float: left;
+}
+.none2
+{
+    list-style-type: none;
+    font-size: 3em;
+    font-weight: 400;
+    border: none;
+    list-style-position: inside;
+    padding: 2px 200px 2px 1px;
+    float:none;
+}
