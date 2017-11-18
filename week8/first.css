@@ -71,3 +71,25 @@ a:hover
     padding: 2px 200px 2px 1px;
     float:none;
 }
+.noneTh
+{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    border: none;
+    list-style-position:inside;
+    padding: 1px 7px 2px 25px;
+    float: left;
+}
+.noneP
+{
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 400;
+    border: none;
+    list-style-position: inside;
+    padding: 2px 20px 2px 1px;
+    float:none;
+}
