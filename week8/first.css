@@ -29,11 +29,12 @@
     font-size: 5em;
     color: #83d82e;
     background-color: #ffffff;
-    border: 3px solid #11a9fa;
+    border: 3px solid #ffffff;
     text-align: center;
- 
     border-collapse:collapse;
     width: 100%;
+    float:right;
+    position:relative;
 }
 .home
 {
@@ -92,4 +93,12 @@ a:hover
     list-style-position: inside;
     padding: 2px 20px 2px 1px;
     float:none;
+}
+.imgC
+{
+    width:9px;
+    height:8px；
+    float:left;
+    
+   position:relative;
 }
