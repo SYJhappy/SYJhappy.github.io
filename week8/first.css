@@ -104,3 +104,13 @@ img:hover
 opacity:1.0;
 filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */
 }
+.footer
+{
+    clear:left;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    background-color: rgba(177, 218, 248, 0.81);
+    color: black;
+}
