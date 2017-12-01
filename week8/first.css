@@ -44,6 +44,34 @@
    background-color: #ffffff;
    width: 100%;
 }
+.nonelog a:link
+{
+    text-decoration: none;
+    color:#0b9efa;
+}
+.nonelog a:visited
+{
+    text-decoration: none;
+    color: #0b9efa;
+}
+.nonelog a:hover
+{
+    text-decoration: none;
+    color: darksalmon;
+}
+
+.nonelog
+{
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 500;
+    border: none;
+    list-style-position:inside;
+    padding: 1px 19px 5px 25px;
+    font-weight: 600;
+    float: right;
+   text-align: right;
+}
 .none1 a:link
 {
     text-decoration: none;
@@ -152,6 +180,14 @@ filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */
     font-size: 20px;
     font-weight: 700；
 }*/
+
+/*Segmenting line*/
+.line
+{ 
+background-image: url(/create/git workspace/SYJhappy.github.io/week6/lace1.jpg);
+background-repeat: repeat-x;
+}
+
 /*picture in the main page*/
 .imgOverlay1
 {
@@ -193,7 +229,7 @@ filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */
 .imglay1
   {
   margin:3px;
-  border:1px solid #bebebe;
+  border:1px solid #fff9f9;
   height:auto;
   width:auto;
   float:left;
@@ -203,7 +239,7 @@ filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */
   {
   display:inline;
   margin:3px;
-  border:1px solid #bebebe;
+  border:1px solid #fcf5f5;
   }
 .imglay1 a:hover img
   {
@@ -256,5 +292,5 @@ text-transform:uppercase;
 }
 #header a:hover,a:active
 {
-background-color:#24d4fd;
+background-color:rgba(55, 225, 247, 0.81);
 }
