@@ -16,3 +16,8 @@
     top:600px;
     
 }
+.movepic img{
+    background-image:url('welcome6.gif');
+    background-repeat:repeat-x;
+   
+}

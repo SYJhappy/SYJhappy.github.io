@@ -1,48 +1,92 @@
-<!DOCTYPE>
+<!doctype html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/create/git workspace/SYJhappy.github.io/week8/first.css" />
-    <link rel="SHORTCUT ICON" href="/create/git workspace/SYJhappy.github.io/week1-3/Logo.ico" />
-    
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.head{
+		width: 100%;
+		height: 70px;
+		background-color: aqua;
+	}
+	.menu{
+		width: 100px;
+		height: 70px;
+		background-color: blueviolet;
+		float: right;
+		margin-right: 20%;
+		
+	}
+	.menu_content{
+		width: 300px;
+		height: 500px;
+		background-color: blueviolet;
+		position: absolute;
+		top: 70px;
+		right: 13%;
+		display: none;
+	}
+    #header ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#header li
+{
+float:left;
+overflow:hidden;
+}
+#header a:link,a:visited
+{
+display:block;
+width:200px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#bebebe;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#header a:hover,a:active
+{
+background-color:rgba(55, 225, 247, 0.81);
+}
+</style>
+
+<script>
+$(document).ready(function(){
+$(".menu").mouseenter(function(){
+	$(".menu_content").slideDown();
+	
+})
+$(".menu_content").mouseleave(function(){
+	$(".menu_content").fadeOut();
+	
+})
+
+
+})
+	</script>
 </head>
-<title>CSS Positioning</title>
 
 <body>
-    <table border="0" width="100%">
-        <tr>
-            <td colspan="65" rowspan="60"><img src="/create/git workspace/SYJhappy.github.io/week6/puppy1c.png" width="665" height="350" alt="cute  dog" /></td>
-
-            <td colspan="65" rowspan="60"><img src="/create/git workspace/SYJhappy.github.io/week6/puppy1c.png" width="665" height="350" alt="cute 
-            dog" /></td>
-
-        </tr>
-    </table>
-    <div class="bigtd">Welcome to </div>
-    <div class="bigtd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learn HTML/CSS</div>
-    <div class="home">
-        <div class="nonelog">
-            <a href="/create/git workspace/SYJhappy.github.io/week10/Login.html">[ Log in ]</a>
-            <a href="/create/git workspace/SYJhappy.github.io/week8/example1.html">[ HOME ]</a>
-        </div>
-    </div>
-    <br/><br/><br/> <br/><br/><br/> <br/><br/><br/> <br/><br/><br/> <br/><br/><br/>
-    <div class="header">
-        <ul>
-            <li><a href="/create/git workspace/SYJhappy.github.io/week8/example1.html">Home</a></li>
-            <li><a href="/create/git workspace/SYJhappy.github.io/index.html">My website</a></li>
-
-            <li><a href="/create/git workspace/SYJhappy.github.io/week8/explainHTML.html">HTML</a></li>
-            <li><a href="/create/git workspace/SYJhappy.github.io/week8/exampleCSS.html">CSS</a></li>
-            <li><a href="/create/git workspace/SYJhappy.github.io/week10/about.html">About</a></li>
-        </ul>
-    </div>
-    <br/><br/><br/><br/>
- <div class="dropdown">
-  <span>Mouse over me</span>
-  <div class="dropdown-content">
-    <p>Hello World!</p>
-    <br/><br/><br/><br/><br/><br/><br/><br/>
-  </div>
+<div class="head">
+	<div class="menu">
+		
+	</div>
 </div>
+<div class="menu_content">
+<p> HTML</p>	
+   
+</div>
+</body>
+</html>
