@@ -308,43 +308,7 @@ background-image: url(/create/git workspace/SYJhappy.github.io/week6/lace1.jpg);
 background-repeat: repeat-x;
 }
 
-/*picture in the main page*/
-.imgOverlay1
-{
-    width: 400px;
-    height: 200px;
-    background: url('/week9/ex1.png') no-repeat;
-}
-.imgOverlay1:hover
-{
-    width: 400px;
-    height: 200px;
-    background: url('/week10/ex2.png') no-repeat;
-}
-.imgOverlay2
-{
-    width: 400px;
-    height: 200px;
-    background: url('/week10/ex3.png') no-repeat;
-}
-.imgOverlay2:hover
-{
-    width: 400px;
-    height: 200px;
-    background: url('/week10/ex4.png') no-repeat;
-}
-.imgOverlay3
-{
-    width: 400px;
-    height: 200px;
-    background: url('/week10/ex6.png') no-repeat;
-}
-.imgOverlay3:hover
-{
-    width: 400px;
-    height: 200px;
-    background: url('/week10/ex5.png') no-repeat;
-}
+
 /*图片库*/
 .imglay1
   {
