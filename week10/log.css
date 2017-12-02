@@ -1,17 +1,18 @@
 .name {
-    position: relative;
-    left: 570px;
-    top: 70px;
-    right: 500px;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    right: 20px;
 }
 .footerlog{
-    clear:left;
+    clear:both;
     margin: auto;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     font-size: 15px;
     background-color: rgba(209, 234, 252, 0.81);
     color: black;
     position: relative;
-    top: 230px;
+    top:600px;
     
+}

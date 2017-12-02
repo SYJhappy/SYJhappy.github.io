@@ -66,7 +66,7 @@
     font-size: 1em;
     font-weight: 500;
     border: none;
-    list-style-position:inside;
+    list-style-position:outside;
     padding: 1px 19px 5px 25px;
     font-weight: 600;
     float: right;
@@ -94,6 +94,34 @@
     list-style-type: none;
     font-size: 2em;
     font-weight: 500;
+    border: none;
+    list-style-position:inside;
+    padding: 1px 19px 5px 25px;
+    font-weight: 600;
+    float: left;
+   text-align: left;
+}
+.linkw1 a:link
+{
+    text-decoration: none;
+    color:#0b9efa;
+}
+.linkw1 a:visited
+{
+    text-decoration: none;
+    color: #61b7ed;
+}
+.linkw1 a:hover
+{
+    text-decoration: none;
+    color: darksalmon;
+}
+
+.linkw1
+{
+    list-style-type: none;
+    font-size: 1.0em;
+    font-weight: 300;
     border: none;
     list-style-position:inside;
     padding: 1px 19px 5px 25px;
@@ -210,6 +238,11 @@
     font-size: 2.0em;
     font-family: fantasy;
 }*/
+textsize{
+    color:cornflowerblue;
+    font-size: 20px;
+    font-weight: 600;
+}
 img
 {
 opacity:0.6;
@@ -312,6 +345,66 @@ background-repeat: repeat-x;
   font-size:20px;
   margin:10px 5px 10px 5px;
   }
+/*table*/
+.dataintable {
+	margin-top:15px;
+	border-collapse:collapse;
+	border:1px solid #aaa;
+	width:100%;
+	}
+
+.dataintable th {
+	vertical-align:baseline;
+	padding:5px 15px 5px 6px;
+	background-color:#3F3F3F;
+	border:1px solid #3F3F3F;
+	text-align:left;
+	color:#fff;
+	}
+
+.dataintable td {
+	vertical-align:text-top;
+	padding:6px 15px 6px 6px;
+	border:1px solid #aaa;
+	}
+
+.dataintable tr(odd) {
+	background-color:#F5F5F5;
+}
+
+.dataintable tr(even) {
+	background-color:#fff;
+}
+
+.dataintable pre {
+	width:auto;
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:transparent;
+	}
+
+.dataintable p {margin:0 0 2px 0;}
+/*headerdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 /* footer */
 .footer

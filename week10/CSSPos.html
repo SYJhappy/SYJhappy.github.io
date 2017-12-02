@@ -26,15 +26,15 @@
             <a href="/create/git workspace/SYJhappy.github.io/week8/example1.html">[ HOME ]</a>
         </div>
     </div>
-    <br/><br/><br/>
-    <div>
+    <br/><br/><br/><br/><br/><br/><br/>
+     <div>
         <ul id="header">
             <li id="header"><a id="header" href="/create/git workspace/SYJhappy.github.io/week8/example1.html">Home</a></li>
-            <li id="header"><a id="header" href="/create/git workspace/SYJhappy.github.io/index.html">My website</a></li>
-
+            <li id="header"><a id="header" href="#news">My website</a></li>
+            
             <li id="header"><a id="header" href="/create/git workspace/SYJhappy.github.io/week8/explainHTML.html">HTML</a></li>
             <li id="header"><a id="header" href="/create/git workspace/SYJhappy.github.io/week8/exampleCSS.html">CSS</a></li>
-            <li id="header"><a id="header" href="/create/git workspace/SYJhappy.github.io/week10/about.html">About</a></li>
+            <li id="header"><a id="header" href="#about">About</a></li>
         </ul>
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -65,7 +65,21 @@
     </div>
     <br/><br/><br/><br/>
     <div class="nonePs">
-        CSS has three basic positioning mechanisms: ordinary flow, floating, and absolute positioning.<br/><br/> The basic idea of location is very simple. It allows you to define the location of the element box relative to its normal location, or the location relative to the parent element, another element or even the browser window itself. This function is very powerful.<br/><br/> All frames are located in ordinary flow except specially designated. That is to say, the position of the element in the ordinary stream is determined by the position of the element in (X) HTML.<br/><br/> The block - level frame is arranged from top to next, and the vertical distance between the frames is calculated by the vertical outer margin of the frame.<br/><br/> The inner frame is arranged horizontally in one line. You can use horizontal margins, borders, and outer margins to adjust their spacing. However, the vertical inner margin, the border, and the outer margin do not affect the height of the inner frame. A horizontal frame formed by a row is called <b>Line Box</b>, and the height of the frame is always enough to hold all the inner frames it contains. However, the height of the set can increase the height of the box.<br/><br/>
+        CSS has three basic positioning mechanisms: ordinary flow, floating, and absolute positioning.<br/><br/> </div>
+        <div class="noneP">CSS relative positioning:</div><br/>
+        <div class="nonePs">
+            If a relative position is placed on an element, it will appear in its location. Then, you can move the element "relative to" its starting point by setting a vertical or horizontal position.<br/><br/>
+            If top is set to 20px, the frame will be 20 pixels below the top of the original position. If the left is set to 30 pixels, a 30 pixel space is created on the left of the element, that is, to move the element to the right.<br/><br/>
+            </div>
+            <img src="ex17.jpg" alt="example" />
+            <br/><br/>
+        <img src="ex18.jpg" alt="example" />
+        <br/><br/>
+    <div class="nonePs">
+        <b>Notice:</b>In the use of relative positioning, whether or not to move, the element still occupies the original space. Therefore, the mobile element causes it to cover the other frames.<br/><br/>
+    </div>
+        <div class="nonePs">
+        The basic idea of location is very simple. It allows you to define the location of the element box relative to its normal location, or the location relative to the parent element, another element or even the browser window itself. This function is very powerful.<br/><br/> All frames are located in ordinary flow except specially designated. That is to say, the position of the element in the ordinary stream is determined by the position of the element in (X) HTML.<br/><br/> The block - level frame is arranged from top to next, and the vertical distance between the frames is calculated by the vertical outer margin of the frame.<br/><br/> The inner frame is arranged horizontally in one line. You can use horizontal margins, borders, and outer margins to adjust their spacing. However, the vertical inner margin, the border, and the outer margin do not affect the height of the inner frame. A horizontal frame formed by a row is called <b>Line Box</b>, and the height of the frame is always enough to hold all the inner frames it contains. However, the height of the set can increase the height of the box.<br/><br/>
         <hr/>
     </div>
     <!---- CSS position attribute ---->
@@ -74,14 +88,16 @@
     </div>
     <br/><br/><br/><br/>
     <div class="nonePs">
-        By using the position attributes, we can choose 4 different types of location, which affects the way the element box is generated.<br/><br/> The meaning of the position attribute value:<br/><br/> static
+        By using the position attributes, we can choose 4 different types of location, which affects the way the element box is generated.<br/><br/> The meaning of the position attribute value:<br/><br/> 
+        static
         <br/><br/> The element frame is normally generated. A block - level element generates a rectangular box, which serves as part of the document flow, and the inside element creates one or more row boxes, placed in the parent element.<br/><br/> relative
         <br/><br/> The element frame shift a certain distance. The element remains in its unpositioned shape, and its original space remains.<br/><br/> absolute
         <br/><br/> The element box is completely deleted from the document flow and is located relative to its block. The inclusion block may be another element in the document or the initial inclusion block. The space that the element originally occupied in the normal document flow would be closed as if the element did not exist. A block - level box is generated after the element is positioned, regardless of the type of frame that it generates in the normal flow.<br/><br/> fixed
         <br/><br/> The representation of an element box is similar to setting the position to <b>absolute</b>, but the block is the window itself.<br/><br/>
         <b>Note:</b> the relative location is actually seen as part of the normal flow location model, because the location of the element is relative to its position in the ordinary flow.<br/><br/>
-       
     </div>
+        <br/><br/>
+        
     <!--- footer ---->
 <div class="footer">
         <br/>
