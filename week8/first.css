@@ -72,6 +72,35 @@
     float: right;
    text-align: right;
 }
+/*link*/
+.linkw a:link
+{
+    text-decoration: none;
+    color:#0b9efa;
+}
+.linkw a:visited
+{
+    text-decoration: none;
+    color: #0b9efa;
+}
+.linkw a:hover
+{
+    text-decoration: none;
+    color: darksalmon;
+}
+
+.linkw
+{
+    list-style-type: none;
+    font-size: 2em;
+    font-weight: 500;
+    border: none;
+    list-style-position:inside;
+    padding: 1px 19px 5px 25px;
+    font-weight: 600;
+    float: left;
+   text-align: left;
+}
 .none1 a:link
 {
     text-decoration: none;
@@ -140,6 +169,17 @@
     padding: 1px 7px 2px 25px;
     float: left;
 }
+.noneThb
+{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 3.5em;
+    font-weight: 550;
+    border: none;
+    list-style-position:inside;
+    padding: 1px 7px 2px 25px;
+    float: left;
+}
 .noneP
 {
     list-style-type: none;
@@ -151,6 +191,25 @@
     padding: 2px 20px 2px 1px;
     float:none;
 }
+.nonePs
+{
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 400;
+    border: none;
+    list-style-position: inside;
+    padding: 2px 20px 2px 1px;
+    float:none;
+}
+/*.first_text{
+    display: block;
+     padding: 1px 19px 5px 25px;
+    float: left;
+    color: darksalmon;
+    font-size: 2.0em;
+    font-family: fantasy;
+}*/
 img
 {
 opacity:0.6;
