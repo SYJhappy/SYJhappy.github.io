@@ -395,7 +395,7 @@ filter:alpha(opacity=100); /* focus on IE8 and earlier versions */
     display: block;
 }
 /* footer */
-.footer
+.header
 {
     clear:both;
     margin: auto;
