@@ -10,7 +10,10 @@
 <title>Log in</title>
 
 <body>
-   <table border="0" width="100%">
+  <div class="header">
+        study website
+    </div>
+    <table border="0" width="100%">
         <tr>
             <td colspan="65" rowspan="60"><img src="/week8/puppy1.jpg" width=100% height=auto alt="cute  dog" /></td>
 
@@ -19,23 +22,40 @@
 
         </tr>
     </table>
-    <div class="bigtd">Welcome to </div>
-    <div class="bigtd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learn HTML/CSS</div>
+    <a href="example1.html"><img src="/week10/mylogo.jpg" alt="my logo" width=15% height=auto/></a>
+    <div class="bigtd">Welcome to Learn HTML/CSS.</div>
     <div class="home">
         <div class="nonelog">
-            <a href="Login.html">[ log in ]</a>
+            <a href="/week10/Login.html">[ Log in ]</a>
             <a href="/week8/example1.html">[ HOME ]</a>
         </div>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-     <div>
-        <ul id="header">
-            <li id="header"><a id="header" href="/week8/example1.html">Home</a></li>
-            <li id="header"><a id="header" href="http://SYJhappy.github.io">My website</a></li>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-            <li id="header"><a id="header" href="/week8/explainHTML.html">HTML</a></li>
-            <li id="header"><a id="header" href="/week8/exampleCSS.html">CSS</a></li>
-            <li id="header"><a id="header" href="about.html">About</a></li>
+     <div class="drop">
+        <ul>
+            <li><a class="active" href="/week8/example1.html">Home</a></li>
+            <li><a href="https://syjhappy.github.io">my website</a></li>
+            <li><a href="/week10/about.html">about</a></li>
+            <div class="dropdown">
+                <a href="/week8/explainHTML.html" class="dropbtn">html</a>
+                <div class="dropdown-content">
+                   <a href="/week9/explainHTML.html">Explain</a>
+                    <a href="/week9/explainjs.html">Tags</a>
+                    <a href="/week10/Htmlimg.html">image</a>
+                    <a href="/week10/HtmlTable.html"> Table</a>
+                    <a href="/week10/FormHtml.html">Form</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="/week8/exampleCSS.html" class="dropbtn">css</a>
+                <div class="dropdown-content">
+                    <a href="/week8/exampleCSS.html">Explain</a>
+                    <a href="/week10/CSSPos.html">Basic tags</a>
+                    <a href="/week10/CSSPos.html">Position</a>
+                </div>
+            </div>
+            <li><a href="/week10/contact.html">contact</a></li>
         </ul>
     </div>
     <br/><br/>
