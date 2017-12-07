@@ -383,7 +383,7 @@ filter:alpha(opacity=100); /* focus on IE8 and earlier versions */
 }
 
 .dropdown-content a {
-    color: black;
+    color: #faf7f7;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
