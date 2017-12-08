@@ -365,7 +365,7 @@ filter:alpha(opacity=100); /* focus on IE8 and earlier versions */
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/* footer */
+/* header */
 .header
 {
     clear:both;
